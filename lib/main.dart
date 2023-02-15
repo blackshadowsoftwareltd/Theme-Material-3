@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart'; 
+import 'package:flutter/material.dart';
+import 'package:theme_material_3/modules/home/home.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -11,6 +12,6 @@ class Main extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const HomeScreen();
   }
 }
