@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart'
     show ConsumerWidget, WidgetRef;
 import 'package:theme_material_3/helpers/themes/dark.dart' show darkTheme;
-import '../../providers/theme.dart' show themeProvider;
+import '../providers/theme.dart' show themeProvider;
 
 class ThemeButton extends ConsumerWidget {
   const ThemeButton({super.key});

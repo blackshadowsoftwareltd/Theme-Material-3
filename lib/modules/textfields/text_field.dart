@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../buttons/theme_button.dart' show ThemeButton;
+import '../components/appbars/appbar.dart' show CustomAppBar;
 
 class TextFieleScreen extends StatelessWidget {
   const TextFieleScreen({super.key});
@@ -7,10 +7,7 @@ class TextFieleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('TextFiled Screen'),
-        actions: const [ThemeButton()],
-      ),
+      appBar: CustomAppBar('TextFiled Screen'),
     );
   }
 }
