@@ -55,7 +55,7 @@ SystemUiOverlayStyle darkUiConfig = SystemUiOverlayStyle(
 );
 
 ThemeData darkTheme = ThemeData(
-    useMaterial3: false,
+    useMaterial3: true,
     primaryColor: blue400,
     dividerColor: white70,
     primaryColorLight: white.withOpacity(.85),

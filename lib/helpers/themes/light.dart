@@ -53,7 +53,7 @@ SystemUiOverlayStyle lightUiConfig = SystemUiOverlayStyle(
 );
 
 ThemeData lightTheme = ThemeData(
-    useMaterial3: false,
+    useMaterial3: true,
     primaryColor: blue400,
     dividerColor: black87,
     primaryColorLight: black87,
