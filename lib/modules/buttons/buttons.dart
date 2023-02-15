@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'theme_button.dart' show ThemeButton;
+
 class ButtonScreen extends StatelessWidget {
   const ButtonScreen({super.key});
 
@@ -8,6 +10,7 @@ class ButtonScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Buttons Screen'),
+        actions: const [ThemeButton()],
       ),
     );
   }

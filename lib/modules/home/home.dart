@@ -5,6 +5,7 @@ import 'package:theme_material_3/modules/buttons/buttons.dart'
     show ButtonScreen;
 import 'package:theme_material_3/modules/textfields/text_field.dart'
     show TextFieleScreen;
+import '../buttons/theme_button.dart' show ThemeButton;
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home Screen'),
+        actions: const [ThemeButton()],
       ),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
