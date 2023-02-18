@@ -5,6 +5,7 @@ import 'color_schemes.dart' show darkColorScheme;
 import 'styles/appbar.dart' show darkAppBarTheme;
 import 'styles/elevated.dart' show darkElevatedButtonTheme;
 import 'styles/floating.dart' show darkFloatingButtonTheme;
+import 'styles/icon_button.dart' show darkIconButtonTheme;
 import 'styles/text_button.dart' show darkTextButtonTheme;
 
 ThemeData darkTheme = ThemeData(
@@ -17,4 +18,5 @@ ThemeData darkTheme = ThemeData(
   elevatedButtonTheme: darkElevatedButtonTheme,
   floatingActionButtonTheme: darkFloatingButtonTheme,
   textButtonTheme: darkTextButtonTheme,
+  iconButtonTheme: darkIconButtonTheme,
 );
