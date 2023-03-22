@@ -30,7 +30,7 @@ final lightColorScheme = ColorScheme(
   inverseSurface: Color(0xFF1E2578),
   inversePrimary: Color(0xFFA7C8FF),
   shadow: black87, //* done
-  surfaceTint: Color(0xFF005EB3),
+  surfaceTint: grey,
   outlineVariant: Color(0xFFC4C6CF),
   scrim: Color(0xFF000000),
 );
@@ -64,7 +64,7 @@ final darkColorScheme = ColorScheme(
   inverseSurface: Color(0xFFE0E0FF),
   inversePrimary: Color(0xFF005EB3),
   shadow: black87, //* done
-  surfaceTint: Color(0xFFA7C8FF),
+  surfaceTint: grey,
   outlineVariant: Color(0xFF43474E),
   scrim: Color(0xFF000000),
 );

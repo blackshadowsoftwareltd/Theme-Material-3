@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart' show GoogleFonts;
-import 'package:theme_material_3/helpers/colors/colors.dart';
+import '/helpers/colors/colors.dart';
 import '/helpers/themes/styles/material_style.dart' show darkButtonTheme;
 import 'color_schemes.dart' show darkColorScheme;
 import 'styles/appbar.dart' show darkAppBarTheme;
