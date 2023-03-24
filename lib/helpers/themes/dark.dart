@@ -8,7 +8,7 @@ import 'styles/elevated.dart' show darkElevatedButtonTheme;
 import 'styles/floating.dart' show darkFloatingButtonTheme;
 import 'styles/icon_button.dart' show darkIconButtonTheme;
 import 'styles/text_button.dart' show darkTextButtonTheme;
-import 'styles/text_field.dart';
+import 'styles/text_field.dart' show darkInputDecorationTheme;
 
 ThemeData darkTheme = ThemeData(
   useMaterial3: true,
