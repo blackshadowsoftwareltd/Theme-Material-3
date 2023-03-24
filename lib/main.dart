@@ -4,6 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart'
 import 'package:theme_material_3/modules/providers/theme.dart'
     show themeProvider;
 import 'modules/buttons/buttons.dart' show ButtonScreen;
+import 'modules/home/home.dart';
+import 'modules/textfields/text_field.dart';
 
 void main() => runApp(const ProviderScope(child: Main()));
 
@@ -23,7 +25,8 @@ class Main extends ConsumerWidget {
               .copyWith(textScaleFactor: 1.0, devicePixelRatio: 1.0),
           child: child!),
       // home: const HomeScreen(),
-      home: const ButtonScreen(),
+      // home: const ButtonScreen(),
+      home: const TextFieleScreen(),
     );
   }
 }
